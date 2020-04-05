@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+
+  <script src="https://kit.fontawesome.com/6e6a680a88.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/navBar.css">
+  <link rel="stylesheet" href="./css/carousel.css">
+  <link rel="stylesheet" href="./css/landingPage.css">
+
+  <link rel="stylesheet" href="./css/preloader.css">
+
+
+  <style>
+    body {
+      background-color: rgba(211, 211, 211, 0.247);
+    }
+
+    .swiper-container {
+
+
+      width: 680px;
+      height: 430px;
+    }
+
+    .swiper-slide {
+
+      text-align: center;
+      font-size: 18px;
+
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
+
+<body>
+  <!--BEGIN LOADER-->
+  <div id="preloader">
+    <lottie-player sty src="https://assets10.lottiefiles.com/packages/lf20_dBbqyA.json" background="transparent"
+      speed="2.5"
+      style="width: 300px; height: 300px;transform: translateX(-50%);position: absolute;left: 50%;bottom: 40%;" loop
+      autoplay>
+    </lottie-player>
+  </div>
+  <!--END LOADER-->
+
+  <!--BEGIN navbar-->
+  <div class="">
+    <div class="container">
+      <nav style="width: 100% !important;" class="">
+        <div class="menu-icons">
+          <i class="icon ion-md-menu"><img src="./media/menuS.png" alt=""></i>
+          <i class="icon ion-md-close"><img src="./media/close.png" alt=""></i>
+        </div>
+        <a href="index.html" class="logo">
+          <img class="logoN" src="./media/logo3.png" width="250px" alt="">
+        </a>
+        <ul class="nav-list">
+          <li>
+            <button style="width: 160px; height: 44px; font-size: 15px;" class="btn btnC btn-light" href="#">categories
+              <i><img style="width: 16px; height: 20px;" src="./media/down.png" alt=""></i>
+            </button>
+            <ul class="sub-menu">
+              <li>
+                <a href="#">development
+                  <i><img style="width:23px; height: 16px;" src="./media/right.png" alt=""></i>
+                </a>
+                <ul style="width: max-content;" class="sub-menu">
+                  <li>
+                    <a href="#">all</a>
+                  </li>
+                  <li>
+                    <a href="#">web developments
+                      <i><img style="width:23px; height: 16px;" src="./media/right.png" alt=""></i>
+                    </a>
+                    <ul style="width: 150px;" class="sub-menu">
+                      <li>
+                        <a href="#"> all</a>
+                      </li>
+                      <li>
+                        <a href="#">HTML</a>
+                      </li>
+
+                      <li>
+                        <a href="#">CSS
+
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">JS</a>
+                      </li>
+                      <li>
+                        <a href="#">PHP</a>
+                      </li>
+
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="#">mobile apps
+                      <i><img style="width:23px; height: 16px;" src="./media/right.png" alt=""></i>
+                      <ul class="sub-menu">
+                        <li>
+                          <a href="#"> all</a>
+                        </li>
+                        <li>
+                          <a href="#">android development</a>
+                        </li>
+
+                        <li>
+                          <a href="#">mobile development
+
+                          </a>
+                        </li>
+
+
+                      </ul>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">programming languages
+                      <i><img style="width:23px; height: 16px;" src="./media/right.png" alt=""></i>
+                      <ul class="sub-menu">
+                        <li>
+                          <a href="#"> all</a>
+                        </li>
+                        <li>
+                          <a href="#">python</a>
+                        </li>
+
+                        <li>
+                          <a href="#">c
+
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">java</a>
+                        </li>
+                        <li>
+                          <a href="#">c++</a>
+                        </li>
+                        <li>
+                          <a href="#">c#</a>
+                        </li>
+                      </ul>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">game developments
+                      <i><img style="width:23px; height: 16px;" src="./media/right.png" alt=""></i>
+                      <ul class="sub-menu">
+                        <li>
+                          <a href="#"> all</a>
+                        </li>
+                        <li>
+                          <a href="#">unity</a>
+                        </li>
+
+                        <li>
+                          <a href="#">c#
+
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">2d game developments</a>
+                        </li>
+
+                        <li>
+                          <a href="#">3d game developments</a>
+                        </li>
+
+                      </ul>
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+              <li>
+                <a href="#">design
+                  <i><img style="width:23px; height: 16px;" src="./media/right.png" alt=""></i>
+                </a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#">all</a>
+                  </li>
+                  <li>
+                    <a href="#">web design
+                      <i><img style="width:23px; height: 16px;" src="./media/right.png" alt=""></i>
+                    </a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="#">all</a>
+                      </li>
+                      <li>
+                        <a href="#">photoshop</a>
+
+                      </li>
+                      <li>
+                        <a href="#">css</a>
+                      </li>
+                      <li>
+                        <a href="#">wordpress</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">graphic design
+                      <i><img style="width:23px; height: 16px;" src="./media/right.png" alt=""></i>
+                    </a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="#">all</a>
+                      </li>
+                      <li>
+                        <a href="#">photoshop</a>
+
+                      </li>
+                      <li>
+                        <a href="#">adobe illustrator</a>
+                      </li>
+                      <li>
+                        <a href="#">logo design</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">game design
+                      <i><img style="width:23px; height: 16px;" src="./media/right.png" alt=""></i>
+                    </a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="#">all</a>
+                      </li>
+                      <li>
+                        <a href="#">unity</a>
+
+                      </li>
+                      <li>
+                        <a href="#">blender</a>
+                      </li>
+                      <li>
+                        <a href="#">unreal engine</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">photography
+                  <i><img style="width:23px; height: 16px;" src="./media/right.png" alt=""></i>
+                </a>
+
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#">all</a>
+                  </li>
+                  <li>
+                    <a href="#">portraits
+                      <i><img style="width:23px; height: 16px;" src="./media/right.png" alt=""></i>
+                    </a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="#">all</a>
+                      </li>
+                      <li>
+                        <a href="#">portraits P.GRAPHY</a>
+                      </li>
+                      <li>
+                        <a href="#">photoshop retouching</a>
+                      </li>
+                      <li>
+                        <a href="#">cameras</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">commercial P.graphy
+                      <i><img style="width:23px; height: 16px;" src="./media/right.png" alt=""></i>
+                    </a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="#">all</a>
+                      </li>
+                      <li>
+                        <a href="#">photo graphy business</a>
+                      </li>
+                      <li>
+                        <a href="#">food photography</a>
+                      </li>
+                      <li>
+                        <a href="#">wedding photo graphy</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">video design
+                      <i><img style="width:23px; height: 16px;" src="./media/right.png" alt=""></i>
+                    </a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="#">all</a>
+                      </li>
+                      <li>
+                        <a href="#">video editing</a>
+                      </li>
+                      <li>
+                        <a href="./hello.html">adobe premiere</a>
+                      </li>
+                      <li>
+                        <a href="#">color grading</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">teaching
+                  <i><img style="width:23px; height: 16px;" src="./media/right.png" alt=""></i>
+                </a>
+                <ul style="width: 150px;" class="sub-menu">
+                  <li>
+                    <a href="#">all</a>
+                  </li>
+                  <li>
+                    <a href="#">BAC</a>
+                  </li>
+                  <li>
+                    <a href="#">prepa</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">co-gaming
+                  <i><img style="width:23px; height: 16px;" src="./media/right.png" alt=""></i>
+                </a>
+                <ul style="width: 150px;" class="sub-menu">
+                  <li>
+                    <a href="#">all</a>
+                  </li>
+                  <li>
+                    <a href="#">LOL</a>
+                  </li>
+                  <li>
+                    <a href="#">FIFA</a>
+                  </li>
+                  <li>
+                    <a href="#">other ...</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <form class="ml-5 form-inline my-2 my-lg-0">
+            <input style="width: 350px; height: 44px; font-size: 14px;" class="form-control searchN mr-sm-2" type="search"
+              placeholder="Search" aria-label="Search">
+            <button style="height: 44px ; font-size: 13px;" class="btn btn-outline-success my-2 my-sm-0"
+              type="submit">Search</button>
+          </form>
+
+
+          <li class="ml-5">
+            <button style="width: 100px; height: 44px; font-size: 15px;" type="button" class="loginbtn btn btn-outline-dark "
+              data-toggle="modal" data-target="#modalLoginForm">Log
+              In</button>
+          </li>
+          <li style="margin-left: 10px;">
+
+            <button style="width: 105px; height: 44px; font-size: 15px;" class="btn signupbtn btn-danger" href="#"
+              data-toggle="modal" data-target="#modalRegisterForm">Sign Up</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!--END navbar-->
+
+  <!--BEGIN contenu mta3 lpage-->
+  <div class="container">
+    <section class="firstDivAfterNav"></section>
+    <div class="TitleOfPicture">
+      <h1 class="textInImg">upgrade your-self now!</h1>
+    </div>
+    <div class="ButtomOfPicture"> <button style="width: 140px; height: 48px;border-radius: 40px;font-size: 13px;"
+        class="btn btn-info">get started!</button> </div>
+
+
+    <div class="partieCourses row">
+      <div class="col-12">
+        <center>
+          <h1 style="font-size: 55px; font-family: sans-serif;">our courses</h1>
+        </center>
+      </div>
+      <!--khaaaaaddhrhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+      <div class="khaadraaaaaaaaaaaaaaaaaaaaaaa PariteAnimation col-lg-4 col-12">
+
+        <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_2ZRMFN.json" class="anim"
+          background="transparent" speed="1.10" style="width: 520px;" loop autoplay>
+        </lottie-player>
+
+      </div>
+
+      <div class="fuckIt col-lg-1"></div>
+
+      <div class="navwcar col-lg-7 col-12">
+        <ul style="margin-left:2%;" class="list-group filter col-lg-12 col-4   list-group-horizontal-lg">
+
+          <li style="width: 170px;" onclick="return filter('DEVELOPMENT'),activeDev()"
+            class="active actidev activeee filterTeamnav list-group-item wid list-group-item-warning">DEVELOPMENT
+          </li>
+
+          <li style="width: 170px;" onclick="return filter('DESIGN') , activeDes()"
+            class="filterTeamnav activeee  activeDesign thenya list-group-item wid list-group-item-warning">DESIGN
+          </li>
+          <li style="width: 170px;" onclick="return filter('PHOTOGRAPHY'),activeP()"
+            class="filterTeamnav  activeP activeee list-group-item wid list-group-item-warning">
+            PHOTOGRAPHY</li>
+
+          <li style="width: 170px;" onclick="return filter('TEACHING'),activeT()"
+            class=" filterTeamnav activeT activeee list-group-item wid list-group-item-warning">
+            TEACHING</li>
+        </ul>
+        <div class="carouss col-lg-12 col-4">
+
+          <!--teaching carousel -->
+          <div class="mydiv  TEACHING swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <!-- Card -->
+                <div style="height: 380px;" class="card">
+
+                  <!-- Card image -->
+                  <div class="view overlay">
+                    <img class="card-img-top" style="height: 170px;width: ;" src="./media/web.png" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <h3 style="text-transform: lowercase;" class="card-title">bac</h3>
+                    <!-- Text -->
+                    <p style="font-size: 16px;" class="card-text">HTML<br> CSS<br> JS<br>PHP</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
+
+                  </div>
+
+                </div>
+                <!-- Card -->
+              </div>
+              <div class="swiper-slide">
+                <!-- Card -->
+                <div style="height: 380px;" class="card">
+
+                  <!-- Card image -->
+                  <div class="view overlay">
+                    <img class="card-img-top" style="height: 170px;" src="./media/web.png" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div style="height: ;" class="card-body">
+
+                    <!-- Title -->
+                    <h3 style="text-transform: lowercase;" class="card-title">prepa</h3>
+                    <!-- Text -->
+                    <p style="font-size: 16px;" class="card-text">HTML<br> CSS<br> JS<br>PHP</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
+
+                  </div>
+
+                </div>
+                <!-- Card -->
+              </div>
+              <div class="swiper-slide">
+                <!-- Card -->
+                <div style="height: 380px;" class="card">
+
+                  <!-- Card image -->
+                  <div class="view overlay">
+                    <img class="card-img-top" style="height: 170px;" src="./media/web.png" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div style="height: ;" class="card-body">
+
+                    <!-- Title -->
+                    <h3 style="text-transform: lowercase;" class="card-title">yamenhyé</h3>
+                    <!-- Text -->
+                    <p style="font-size: 16px;" class="card-text">HTML<br> CSS<br> JS<br>PHP</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
+
+                  </div>
+
+                </div>
+                <!-- Card -->
+              </div>
+              <div class="swiper-slide">
+                <!-- Card -->
+                <div style="height: 380px;" class="card">
+
+                  <!-- Card image -->
+                  <div class="view overlay">
+                    <img class="card-img-top" style="height: 170px;" src="./media/web.png" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div style="" class="card-body">
+
+                    <!-- Title -->
+                    <h3 style="text-transform: lowercase;" class="card-title">yamenhyé</h3>
+                    <!-- Text -->
+                    <p style="font-size: 16px;" class="card-text">HTML<br> CSS<br> JS<br>PHP</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
+
+                  </div>
+
+                </div>
+                <!-- Card -->
+              </div>
+
+
+
+
+
+            </div>
+            <!-- Add Pagination -->
+            <div style="top: 410px;" class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+
+          </div>
+          <!--design carousel -->
+          <div class="mydiv  DESIGN swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <!-- Card -->
+                <div style="height: 380px;" class="card">
+
+                  <!-- Card image -->
+                  <div class="view overlay">
+                    <img class="card-img-top" style="height: 170px;width: ;" src="./media/web.png" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <h3 style="text-transform: lowercase;" class="card-title">web design</h3>
+                    <!-- Text -->
+                    <p style="font-size: 16px;" class="card-text">HTML<br> CSS<br> JS<br>PHP</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
+
+                  </div>
+
+                </div>
+                <!-- Card -->
+              </div>
+              <div class="swiper-slide">
+                <!-- Card -->
+                <div style="height: 380px;" class="card">
+
+                  <!-- Card image -->
+                  <div class="view overlay">
+                    <img class="card-img-top" style="height: 170px;" src="./media/web.png" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div style="height: ;" class="card-body">
+
+                    <!-- Title -->
+                    <h3 style="text-transform: lowercase;" class="card-title">graphic design</h3>
+                    <!-- Text -->
+                    <p style="font-size: 16px;" class="card-text">HTML<br> CSS<br> JS<br>PHP</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
+
+                  </div>
+
+                </div>
+                <!-- Card -->
+              </div>
+              <div class="swiper-slide">
+                <!-- Card -->
+                <div style="height: 380px;" class="card">
+
+                  <!-- Card image -->
+                  <div class="view overlay">
+                    <img class="card-img-top" style="height: 170px;" src="./media/web.png" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div style="height: ;" class="card-body">
+
+                    <!-- Title -->
+                    <h3 style="text-transform: lowercase;" class="card-title">game design</h3>
+                    <!-- Text -->
+                    <p style="font-size: 16px;" class="card-text">HTML<br> CSS<br> JS<br>PHP</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
+
+                  </div>
+
+                </div>
+                <!-- Card -->
+              </div>
+              <div class="swiper-slide">
+                <!-- Card -->
+                <div style="height: 380px;" class="card">
+
+                  <!-- Card image -->
+                  <div class="view overlay">
+                    <img class="card-img-top" style="height: 170px;" src="./media/web.png" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div style="height: ;" class="card-body">
+
+                    <!-- Title -->
+                    <h3 style="text-transform: lowercase;" class="card-title">yamenhyé :)</h3>
+                    <!-- Text -->
+                    <p style="font-size: 16px;" class="card-text">HTML<br> CSS<br> JS<br>PHP</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
+
+                  </div>
+
+                </div>
+                <!-- Card -->
+              </div>
+
+
+
+
+
+            </div>
+            <!-- Add Pagination -->
+            <div style="top: 410px;" class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+
+          </div>
+
+          <!--photography carousel -->
+          <div class="mydiv  PHOTOGRAPHY swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <!-- Card -->
+                <div style="height: 380px;" class="card">
+
+                  <!-- Card image -->
+                  <div class="view overlay">
+                    <img class="card-img-top" style="height: 170px;width: ;" src="./media/web.png" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <h3 style="text-transform: lowercase;" class="card-title">portraits</h3>
+                    <!-- Text -->
+                    <p style="font-size: 16px;" class="card-text">HTML<br> CSS<br> JS<br>PHP</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
+
+                  </div>
+
+                </div>
+                <!-- Card -->
+              </div>
+              <div class="swiper-slide">
+                <!-- Card -->
+                <div style="height: 380px;" class="card">
+
+                  <!-- Card image -->
+                  <div class="view overlay">
+                    <img class="card-img-top" style="height: 170px;" src="./media/web.png" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div style="height: ;" class="card-body">
+
+                    <!-- Title -->
+                    <h3 class="card-title">commercial P.graphy</h3>
+                    <!-- Text -->
+                    <p style="font-size: 16px;" class="card-text">HTML<br> CSS<br> JS<br>PHP</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
+
+                  </div>
+
+                </div>
+                <!-- Card -->
+              </div>
+              <div class="swiper-slide">
+                <!-- Card -->
+                <div style="height: 380px;" class="card">
+
+                  <!-- Card image -->
+                  <div class="view overlay">
+                    <img class="card-img-top" style="height: 170px;" src="./media/web.png" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div style="height: ;" class="card-body">
+
+                    <!-- Title -->
+                    <h3 style="text-transform: lowercase;" class="card-title">video design</h3>
+                    <!-- Text -->
+                    <p style="font-size: 16px;" class="card-text">HTML<br> CSS<br> JS<br>PHP</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
+
+                  </div>
+
+                </div>
+                <!-- Card -->
+              </div>
+              <div class="swiper-slide">
+                <!-- Card -->
+                <div style="height: 380px;" class="card">
+
+                  <!-- Card image -->
+                  <div class="view overlay">
+                    <img class="card-img-top" style="height: 170px;" src="./media/web.png" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div style="height: ;" class="card-body">
+
+                    <!-- Title -->
+                    <h3 style="text-transform: lowercase;" class="card-title">yamenhyé</h3>
+                    <!-- Text -->
+                    <p style="font-size: 16px;" class="card-text">HTML<br> CSS<br> JS<br>PHP</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
+
+                  </div>
+
+                </div>
+                <!-- Card -->
+              </div>
+
+
+
+
+
+            </div>
+            <!-- Add Pagination -->
+            <div style="top: 410px;" class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+
+          </div>
+
+          <!--progg carousel -->
+          <div class="mydiv  DEVELOPMENT swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <!-- Card -->
+                <div style="height: 380px;" class="card">
+
+                  <!-- Card image -->
+                  <div class="view overlay">
+                    <img class="card-img-top" style="height: 170px;width: ;" src="./media/web.png" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div class="card-body">
+
+                    <!-- Title -->
+                    <h3 style="text-transform: lowercase;" class="card-title">web dovelopments</h3>
+                    <!-- Text -->
+                    <p style="font-size: 16px;" class="card-text">HTML<br> CSS<br> JS<br>PHP</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
+
+                  </div>
+
+                </div>
+                <!-- Card -->
+              </div>
+              <div class="swiper-slide">
+                <!-- Card -->
+                <div style="height: 380px;" class="card">
+
+                  <!-- Card image -->
+                  <div class="view overlay">
+                    <img class="card-img-top" style="height: 170px;" src="./media/web.png" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div style="height: ;" class="card-body">
+
+                    <!-- Title -->
+                    <h3 style="text-transform: lowercase;" class="card-title">MOBILE APPS</h3>
+                    <!-- Text -->
+                    <p style="font-size: 16px;" class="card-text">HTML<br> CSS<br> JS<br>PHP</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
+
+                  </div>
+
+                </div>
+                <!-- Card -->
+              </div>
+              <div class="swiper-slide">
+                <!-- Card -->
+                <div style="height: 380px;" class="card">
+
+                  <!-- Card image -->
+                  <div class="view overlay">
+                    <img class="card-img-top" style="height: 170px;" src="./media/web.png" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div style="height: ;" class="card-body">
+
+                    <!-- Title -->
+                    <h3 style="text-transform: lowercase;" class="card-title">PROGRAMMING LANGUAGES</h3>
+                    <!-- Text -->
+                    <p style="font-size: 16px;" class="card-text">HTML<br> CSS<br> JS<br>PHP</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
+
+                  </div>
+
+                </div>
+                <!-- Card -->
+              </div>
+              <div class="swiper-slide">
+                <!-- Card -->
+                <div style="height: 380px;" class="card">
+
+                  <!-- Card image -->
+                  <div class="view overlay">
+                    <img class="card-img-top" style="height: 170px;" src="./media/web.png" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div style="height: ;" class="card-body">
+
+                    <!-- Title -->
+                    <h3 style="text-transform: lowercase;" class="card-title">GAME DEVELOPMENTS</h3>
+                    <!-- Text -->
+                    <p style="font-size: 16px;" class="card-text">HTML<br> CSS<br> JS<br>PHP</p>
+                    <!-- Button -->
+                    <a href="#" class="btn btn-primary">Button</a>
+
+                  </div>
+
+                </div>
+                <!-- Card -->
+              </div>
+
+
+
+
+
+            </div>
+            <!-- Add Pagination -->
+            <div style="top: 410px;" class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!--END contenu mta3 lpage-->
+
+  <br>
+
+  <!--BEGIN FOOTER-->
+  <footer class="footer">
+    <div class="rowFooter container row">
+
+      <div class="leftBox col-lg-6 col-12">
+        <p><img style="width: 330px;" src="./media/logo3.png" alt=""></p>
+        <p style="color: rgba(255, 255, 255, 0.7);font-size: 16px;margin-bottom: 30px;font-family: sans-serif;">Study.tn
+          is a Tunisian online
+          marketplace for video based courses. At study you can learn anything you want at the comfort of your house or
+          on the go.</p>
+        <ul style="display: flex;">
+          <li
+            style="color: #fff;text-transform: uppercase;font-weight: 500;letter-spacing: 2px;font-size: 13px;font-size: 1.3rem;margin-right: 20px;margin-top: 10px;">
+            FOLLOW US
+          </li>
+          <li style="margin-right: 20px;"><a href="#"><img class="socialMediaIcons" style="width: 40px;"
+                src="./media/fb2.png" alt=""></a></li>
+          <li style="margin-right: 20px;"><a href="#"><img class="socialMediaIcons" style="width: 40px;"
+                src="./media/ig.png" alt=""></a></li>
+          <li style="margin-right: 20px;"><a href="#"><img class="socialMediaIcons" style="width: 40px;"
+                src="./media/ik.png" alt=""></a></li>
+          <li style="margin-right: 20px;"><a href="#"><img class="socialMediaIcons" style="width: 40px;"
+                src="./media/yt.png" alt=""></a></li>
+        </ul>
+      </div>
+
+      <div class="mediumBox col-lg-3 col-12">
+        <h1 class="ll"
+          style="color:rgb(193, 155, 58);font-family: comic sans ms;display: flex;justify-content: center;margin-top: 40px;font-weight: 600;margin-bottom: 21px;">
+          Useful links</h1>
+        <ul style="display: block;position: relative;width: max-content;">
+          <a onmouseout="return dispnone1();" onmouseover="return dispBlockI1();"
+            style="color: rgba(255, 255, 255, 0.9);font-size: 17.3px;" href="">
+            <li class="usefulLi" class="">About Us
+              <img class="usefullLiImg u1 d-none" style="width: 26.7px;  " src="./media/nextUL.png" alt="">
+            </li>
+
+          </a>
+          <a onmouseout="return dispnone2();" onmouseover="return dispBlockI2();"
+            style="color: rgba(255, 255, 255, 0.9);font-size: 17.3px;" href="">
+            <li class="usefulLi">Teach with us
+              <img class="usefullLiImg u2 d-none" style="width: 25px;" src="./media/nextUL.png" alt="">
+            </li>
+          </a>
+        </ul>
+      </div>
+
+      <div class="rightBox col-lg-3 col-12">
+        <h1 class="ll"
+          style="color:rgb(193, 155, 58);font-family: comic sans ms;display: flex;justify-content: center;margin-top: 40px;font-weight: 600;margin-bottom: 21px;">
+          Contacts</h1>
+        <ul style="width: max-content;">
+          <li onmouseout="return CD1();" onmouseover="return C1();" class="Cli">
+            <img class="imgT" style="width: 22px;" src="./media/mobile.png" alt="">
+            <a style="color: rgba(255, 255, 255, 0.9);font-size: 17px;" href="tel://+216 55 882 947"><i
+                class="ti-mobile"></i> +216 53 522 793</a></li>
+
+          <li onmouseout="return CD2();" onmouseover="return C2();" class="Cli">
+            <img class="imgT" style="width: 22px" src="./media/email.png" alt="">
+            <a style="color: rgba(255, 255, 255, 0.9);font-size: 17px;width: max-content;" href=""><i
+                class="ti-mobile"></i>coaching@gmail.com</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+  </footer>
+  <div class="footerBottom row col-12">
+    &copy; e-coaching.tn | Developed by Jallouli Yassine
+  </div>
+  <!--END FOOTER-->
+
+  <!--BEGIN MODAL SIGN UP-->
+  <form method="POST" action="./php/controllers/studendtAdd.php">
+    <div style="margin-top: 10px;" class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog"
+      aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div style="height: 500px;border-radius: 1.7rem;" class="modal-content">
+          <div style="height: 69px;" class="modal-header text-center">
+            <h2 style="display: flex;justify-content: center;align-self: center;"
+              class="modal-title w-100 font-weight-bold">Sign up</h2>
+            <button style="font-size: 2.3rem;margin-right: 2%;margin-top: 0.1%;" type="button" class="close"
+              data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3 mt-4">
+            <div style="margin-bottom: 70px;" class="md-form">
+              <i style="position: relative;" class="prefix"><img style="width: 35px;position: absolute;"
+                  src="./media/user.png" alt=""></i>
+              <input style="margin-left: 42px; font-size: 18px;" type="text" id="orangeForm-name" class="form-control"
+                name="name">
+              <label style="font-size: 18px; margin-left: 42px;" data-error="wrong" data-success="right"
+                for="orangeForm-name">Your name
+              </label>
+            </div>
+            <div style="margin-bottom: 70px;" class="md-form">
+              <i style="position: relative;" class="prefix"><img style="width: 32px;position: absolute;"
+                  src="./media/mail.png" alt=""></i>
+              <input style="margin-left: 42px; font-size: 18px;" type="email" id="orangeForm-email" class="form-control"
+                name="email">
+              <label style="font-size: 18px; margin-left: 42px;" data-error="wrong" data-success="right"
+                for="orangeForm-email">Your email</label>
+            </div>
+
+            <div style="margin-bottom: 40px;" class="md-form">
+              <i style="position: relative;" class="prefix"><img style="width: 32px;position: absolute;"
+                  src="./media/password.png" alt=""></i>
+              <input style="margin-left: 42px; font-size: 18px;" type="password" id="orangeForm-pass"
+                class="form-control" name="password">
+              <label style="font-size: 18px; margin-left: 42px;" data-error="wrong" data-success="right"
+                for="orangeForm-pass">Your password</label>
+            </div>
+
+          </div>
+          <div style="height: 83px;" class="modal-footer d-flex justify-content-center">
+            <button style="width: 117px; height: 45.8px;font-size: 14px;" class="btn btn-deep-orange">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <!--END MODAL SIGN UP-->
+
+
+  <!--BEGIN MODAL LOG-IN-->
+  <form method="POST" action="./php/controllers/studendtregister.php">
+    <div style="margin-top: 10px;" class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog"
+      aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div style="height: 377px;border-radius: 1.7rem;" class="modal-content">
+          <div style="height: 69px;" class="modal-header text-center">
+            <h2 style="display: flex;justify-content: center;align-self: center;"
+              class="modal-title w-100 font-weight-bold">Sign in</h2>
+            <button style="font-size: 2.3rem;margin-right: 2%;margin-top: 0.1%;" type="button" class="close"
+              data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
+            <div style="margin-bottom: 65px;margin-top: 50px;" class="md-form">
+              <i style="position: relative;" class="prefix"><img style="width: 32px;position: absolute;"
+                  src="./media/mail.png" alt=""></i>
+              <input style="margin-left: 42px;font-size: 18px;" type="email" id="defaultForm-email" class="form-control"
+                name="emails">
+              <label style="font-size: 18px; position: absolute; margin-left: 42px;" data-error="wrong"
+                data-success="right" for="defaultForm-email">Your email</label>
+            </div>
+
+            <div class="md-form mb-4">
+              <i style="position: relative;" class="prefix"><img style="width: 32px;position: absolute;"
+                  src="./media/password.png" alt=""></i>
+              <input style="margin-left: 42px;font-size: 18px;" type="password" id="defaultForm-pass"
+                class="form-control" name="passwords">
+              <label style="font-size: 18px; position: absolute; margin-left: 42px;" data-error="wrong"
+                data-success="right" for="defaultForm-pass">Your password</label>
+            </div>
+
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button style="width: 117px; height: 45.8px;font-size: 14px;" class="btn btn-default">Login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <!--END MODAL LOG-IN-->
+  <!-- Swiper JS -->
+  <script src="./js/carouselCoursesIndex.js"></script>
+  <script>
+
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+  <script type="text/javascript">
+
+    $(window).on('load', function () {
+      $('#status').fadeOut();
+      $('#preloader').delay(350).fadeOut('slow');
+      $('body').delay(350).css({ 'overflow': 'visible' });
+
+    });
+  </script>
+
+  <script src="./js/hoverUsefulLinksFooter.js"></script>
+  <script src="./js/filtreCarousel.js"></script>
+  <!--animation lotti files -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/js/mdb.min.js"></script>
+  <script src="./js/navBar.js"></script>
+
+</body>
+
+</html>
